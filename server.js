@@ -89,5 +89,6 @@ res.send((result.result.n === 1) ?
 })
 
 
-const port = process.env.PORT || 3000
-app.listen(port)
+const port = process.env.PORT || 3000;
+app.listen(port,()=> {console.log('express server is runnimg at localhost:3000')
+})
